@@ -1,10 +1,15 @@
+import Navbar from "./Components/Navbar"
+import Home from "./Pages/Home"
+import Jenis from "./Pages/Jenis"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
+      <Navbar/>
+      <Home/>
+      
+      <Jenis/>
     </>
   )
 }
